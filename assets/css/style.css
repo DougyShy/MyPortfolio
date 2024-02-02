@@ -11,23 +11,19 @@ body {
 
 .header {
 
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #051622;
+    color: #051622;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    background-color: red;
+    background-color: #DEB992;
+    padding-left: 60px;
+    padding-right: 20px;
 }
-
-/*.header h1 .seo {
-    color: #d9dcd6;
-}*/
-
-
 
 .header div {
     padding-top: 15px;
@@ -46,8 +42,13 @@ body {
     margin-left: 25px;
 }
 
+.header div ul li a {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 a {
-    color: #ffffff;
+    color: #DEB992;
     text-decoration: none;
 }
 
@@ -55,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.splash {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
