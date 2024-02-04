@@ -132,7 +132,14 @@ p {
 
 .work-links {
     width: 75%;
-}   
+    display: flex;
+    flex-direction:row;
+}
+
+.work-links ul {
+    /*list-style: none;*/
+    color: purple;
+}
 
 /* Footer details */
 
