@@ -17,6 +17,11 @@ body {
     color: #051622;
 }
 
+.contact-me h1 {
+    display: inline-block;
+    color: #DEB992;
+}
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -40,12 +45,7 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-.header div ul li a {
-    display: inline-block;
-    margin-left: 25px;
-    border-bottom: solid 4px;
+    border-bottom: solid #DEB992 3px;
 }
 
 a {
@@ -54,7 +54,7 @@ a {
 }
 
 p {
-    font-size: 75px;
+    font-size: 25px;
 }
 
 .splash {
@@ -95,12 +95,12 @@ p {
 
 .content {
     display: flex;
-    justify-content: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:  #051622;
 }
 
-.about {
+.about, .contact, .work {
+    
     width: 20%;
 
     font-size: 25px;
@@ -113,54 +113,71 @@ p {
 
 }
 
-.work {
-    width: 20%;
-
-    font-size: 25px;
-    text-align: right;
-    padding-right: 15px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    
-    border-right: solid #051622 5px;
-}
-
-.about-text {
+.about-text, .contact-me {
     width: 80%;
     font-size: 10px;
     margin-right: 100px;
 }
 
+.contact-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #DEB992;
+    background-color: #051622;
+    margin-bottom: 20px;
+}
+
+.contact-me h1 {
+    border-bottom: solid #DEB992 3px;
+}
+
 .magic-mirror {
     display: flex;
     width: 100%;
+    margin-bottom: 5px;
 }
-
-
 
 .magic-mirror img {
     width: 100%;
     border: 10px solid #DEB992;
 }
 
-.chess {
-    display: inline-flex;
+.magic-mirror h1 {
+    position: absolute;
+    color: #051622;
+    background-color: #DEB992;
+    padding: 15px 20px;
+}
+
+.chess h1, .calc h1, .lottery h1, .inventory h1 {
+    position: absolute;
+    color: #051622;
+    background-color: #DEB992;
+    padding: 15px 20px;
+}
+
+.chess, .lottery, .inventory, .calc {
+    display: flex;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .chess img {
-    width: 50%;
     border: 10px solid #DEB992;
-}
-
-.calc {
     width: 50%;
 }
 
 .calc img {
-    width: 100%;
+    width: 50%;
     border: 10px solid #DEB992;
 }
+
+.lottery img {
+    border: 10px solid #DEB992;
+}
+
+
 
 
 /* Footer details */
