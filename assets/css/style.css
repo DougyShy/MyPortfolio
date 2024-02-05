@@ -38,9 +38,18 @@ body {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #DEB992;
+}
+
 .header div ul {
     list-style-type: none;
 }
+
+/*.header a {
+    display: block;
+}*/
 
 .header div ul li {
     display: inline-block;
@@ -48,14 +57,12 @@ body {
     border-bottom: solid #DEB992 3px;
 }
 
-a {
-    color: #DEB992;
-    text-decoration: none;
+.chess a, .calc a, .lottery a, .inventory a, .magic-mirror a {
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 
-p {
-    font-size: 25px;
-}
 
 .splash {
     height: 300px;
@@ -119,6 +126,10 @@ p {
     margin-right: 100px;
 }
 
+.about-text h1 {
+    margin-bottom: 15px;
+}
+
 .contact-me {
     display: flex;
     justify-content: space-around;
@@ -138,6 +149,10 @@ p {
     margin-bottom: 5px;
 }
 
+.calc img:hover, .inventory img:hover, .chess img:hover, .magic-mirror img:hover, .lottery img:hover {
+    opacity: 0.5;
+}
+
 .magic-mirror img {
     width: 100%;
     border: 10px solid #DEB992;
@@ -150,7 +165,7 @@ p {
     padding: 15px 20px;
 }
 
-.chess h1, .calc h1, .lottery h1, .inventory h1 {
+.chess h1, .calc h1 .lottery h1, .inventory h1 {
     position: absolute;
     color: #051622;
     background-color: #DEB992;
@@ -158,27 +173,16 @@ p {
 }
 
 .chess, .lottery, .inventory, .calc {
-    display: flex;
+    display: flex; 
+    gap: 5px;
     width: 100%;
     margin-bottom: 5px;
 }
 
-.chess img {
+.chess img, .calc img, .lottery img, .inventory img {
     border: 10px solid #DEB992;
-    width: 50%;
+    width: 100%;
 }
-
-.calc img {
-    width: 50%;
-    border: 10px solid #DEB992;
-}
-
-.lottery img {
-    border: 10px solid #DEB992;
-}
-
-
-
 
 /* Footer details */
 
