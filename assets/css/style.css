@@ -101,7 +101,7 @@ p {
 }
 
 .about {
-    width: 25%;
+    width: 20%;
 
     font-size: 25px;
     text-align: right;
@@ -114,7 +114,7 @@ p {
 }
 
 .work {
-    width: 25%;
+    width: 20%;
 
     font-size: 25px;
     text-align: right;
@@ -126,20 +126,42 @@ p {
 }
 
 .about-text {
-    width: 75%;
+    width: 80%;
     font-size: 10px;
+    margin-right: 100px;
 }
 
-.work-links {
-    width: 75%;
+.magic-mirror {
     display: flex;
-    flex-direction:row;
+    width: 100%;
 }
 
-.work-links ul {
-    /*list-style: none;*/
-    color: purple;
+
+
+.magic-mirror img {
+    width: 100%;
+    border: 10px solid #DEB992;
 }
+
+.chess {
+    display: inline-flex;
+    width: 100%;
+}
+
+.chess img {
+    width: 50%;
+    border: 10px solid #DEB992;
+}
+
+.calc {
+    width: 50%;
+}
+
+.calc img {
+    width: 100%;
+    border: 10px solid #DEB992;
+}
+
 
 /* Footer details */
 
