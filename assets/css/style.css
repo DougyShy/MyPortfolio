@@ -47,10 +47,6 @@ a {
     list-style-type: none;
 }
 
-/*.header a {
-    display: block;
-}*/
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -62,7 +58,6 @@ a {
     width: 100%;
     height: 100%;
 }
-
 
 .splash {
     height: 300px;
@@ -164,13 +159,6 @@ a {
     background-color: #DEB992;
     padding: 5px 15px 5px 20px;
 }
-
-/*.chess h1, .calc h1 .lottery h1, .inventory h1 {
-    position: absolute;
-    color: #051622;
-    background-color: #DEB992;
-    padding: 15px 20px;
-}*/
 
 .chess, .lottery, .inventory, .calc {
     display: flex; 
