@@ -22,7 +22,7 @@ Use the KISS method.
 
 ## Getting Started
 
-This website should be ready for view.
+This website should be ready for view on most devices supporting 800px width. The smaller it gets the more congested the content gets but still relatively acceptable.
 
 ## Installing
 
