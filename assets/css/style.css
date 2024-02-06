@@ -68,8 +68,6 @@ a {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    /*background-image: url("../images/wood-plank-background.jpg");*/
-    /*background-repeat: repeat;*/
     background-image: url("../images/brown-basket-wide.png");
     background-size: cover;
     background-position: center;
@@ -158,19 +156,21 @@ a {
     border: 10px solid #DEB992;
 }
 
-.magic-mirror h1 {
+.magic-mirror h1, .chess h1, .calc h1, .lottery h1, .inventory h1{
     position: absolute;
+    font-size: 18px;
+    align-self: flex-end;
     color: #051622;
     background-color: #DEB992;
-    padding: 15px 20px;
+    padding: 5px 15px 5px 20px;
 }
 
-.chess h1, .calc h1 .lottery h1, .inventory h1 {
+/*.chess h1, .calc h1 .lottery h1, .inventory h1 {
     position: absolute;
     color: #051622;
     background-color: #DEB992;
     padding: 15px 20px;
-}
+}*/
 
 .chess, .lottery, .inventory, .calc {
     display: flex; 
